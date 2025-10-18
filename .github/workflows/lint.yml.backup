@@ -1,10 +1,6 @@
-# DISABLED AUTO-RUN: Originally triggered on auto-triggers
-# Converted to manual execution only - 2025-10-18
-# Backup available at: lint.yml.backup
 name: Lint
 on:
-  workflow_dispatch:  # Manual trigger only
-#   push:
+  push:
 
 jobs:
   build:
